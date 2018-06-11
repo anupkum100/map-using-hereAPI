@@ -1,0 +1,45 @@
+#map{
+  min-height: 600px;
+  height: 1000px;
+  width: 100%;
+}
+.filterSection{
+  background: #333;
+  color: #fff;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  z-index: 1;
+  box-shadow: 3px 3px 10px #333;
+  border-radius: 5px;
+  padding: 10px;
+}
+.filterSection label{
+  height: 30px;
+  display: block;
+  text-align: right;
+  padding: 5px;
+}
+.filterSection .closeIcon{
+  cursor: pointer;
+  font-size: 20px;
+  position: fixed;
+  left: 130px;
+  top: 0px;
+  text-shadow: 3px 3 #fff;
+  background: #333;
+  border-radius: 50%;
+  padding: 10px 15px;
+  box-shadow: 3px 3px 10px #333;
+}
+.filterIcon {
+  background: url('./icons/filter.png') no-repeat;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  background-size: cover;
+  z-index: 1;
+  cursor: pointer;
+}
